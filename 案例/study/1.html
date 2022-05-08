@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            height: 42px;
+            /* background-color: pink; */
+            /* 注意此地方会层叠 w 里面的margin */
+            margin: 30px auto;
+        }
+
+        .logo {
+            float: left;
+            width: 198px;
+            height: 42px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 1.头部区域开始啦 -->
+    <div class="header w">
+        <!-- logo部分 -->
+        <div class="logo">
+            <img src="images/logo.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
